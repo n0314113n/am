@@ -1,0 +1,54 @@
+h1 {
+    background-color: white;
+    text-shadow: 3px 2px white;
+}
+
+p {
+    background-color: white;
+    color: teal;
+    text-align: right;
+    font-family: "Courier New", Courier, monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* 
+img {
+    max-width: 100%;
+    height: auto; 
+    border-radius: 100%;
+} */
+
+
+/* begin nav bar */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 50%;
+    font-family: "Courier New", Courier, monospace;
+}
+
+li {
+    float: center;
+    padding: 50px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #1CA1B4;
+}
+
+
+/* end nav bar */
